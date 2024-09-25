@@ -1,36 +1,29 @@
 import React from 'react'
 import './Header.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom'
+import { CiMenuBurger } from "react-icons/ci";
 
 function Header() {
   return (
-    <div className='overall-header-container'>
-        <div className="left-nav-link-ovearall">
-      <div className="club-logo">
-       <div className="brand-name">
-       <h3>MurangaTechClub</h3>
-       </div>
+    <div className='ovearall-header-section'>
+      <div className="brand-name-section">
+        <h1>Murang'a University Tech Club</h1>
       </div>
-      <div className="navigation-links-container">
-      <ul className='list-unstyled nav-links-ul'>
-       <li className='text-light'>Home</li>
-       <li className='text-light'>Leadership</li>
-       <li className='text-light'>Tracks</li>
-       <li className='text-light'>Events</li>
-      </ul>
+      <div className="nav-links-section">
+        <ul className='list-unstyled'>
+          <li>Leadership</li>
+          <li>Tracks</li>
+          <li>Events</li>
+          <li>Testimonials</li>
+          <li>
+            <div  className='signbtn'>Signup/in</div>
+          </li>
+        </ul>
       </div>
-        </div>
-        <div className="right-nav-link-section-overall">
-         {/* <div className="signin-btn">
-           <button className='btn btn-lg text-light fs-4'>Signin</button>
-         </div> */}
-         <div className="signup-btn">
-         <button className='btn  btn-lg text-light'>Signup/signin</button>
-         </div>
-
-        </div>
-        </div>
+      <div className="small-screen-menu-icon">
+      <CiMenuBurger  className="text-light fs-1"/>
+      </div>
+      </div>
   )
 }
 

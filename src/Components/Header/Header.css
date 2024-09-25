@@ -1,55 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
 
-.overall-header-container{
-height: max-content;
-padding: 1rem;
+.ovearall-header-section{
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-gap: 2rem;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+padding: 2rem;
+gap: 3rem;
 }
 :root{
---colorWhite:white;
+    --colorWhite:white;
+    --font-family-logo:"Merienda", cursive;
 }
-.left-nav-link-ovearall{
-display: flex;
-flex-direction: row;
-gap:15vw;
-}
-.brand-name{
-font-family: "Courgette", cursive;
+.brand-name-section{
 color:var(--colorWhite);
-padding: 10px;
-margin-left: 4rem;
+
 }
-.brand-name h3{
-    font-size: 2rem;
+.brand-name-section h1{
+    font-family: var(--font-family-logo);
+    font-size: 4rem;
+}
+ @media screen and (max-width:51.25em) {
+    .brand-name-section h1{
+        font-family: var(--font-family-logo);
+        font-size: 2rem;
     }
-.nav-links-ul{
+ }
+ @media screen and (max-width:22.5em) {
+    .brand-name-section h1{
+        font-family: var(--font-family-logo);
+        font-size: 5vw;
+    }
+ }
+.nav-links-section{
+width:100rem;
+}
+
+@media screen and (max-width:51.25em) {
+    .nav-links-section{
+        width: 80vw;;
+        }
+ }
+ @media screen and (max-width:38.75em) {
+    .nav-links-section{
+        display: none;
+        }
+    .small-screen-menu-icon{
+    background-color:rgb(54, 54, 54) ;
+    padding: 1rem;
+    }
+ }
+ @media screen and (min-width:38.75em) {
+    .small-screen-menu-icon{
+        display: none;
+        }
+ }
+.nav-links-section ul{
 display: flex;
 flex-direction: row;
-gap: 4rem;
+justify-content: space-evenly;
+
 }
-.nav-links-ul li{
-    font-size: 2rem;
-    padding-block: 1rem;
-    }
-    .nav-links-ul li:hover{
-    border-bottom: 2px solid rgb(60, 60, 5);
-    }
-.right-nav-link-section-overall{
-display: flex;
-flex-direction: row;
-gap: 20px;
-margin-right: 2rem;
+.nav-links-section ul li{
+color: var(--colorWhite);
+font-size: 2rem;
 }
-/* .signin-btn button{
-padding: 10px;
-font-size: 1.6rem;
-} */
-.signup-btn button{
-    padding: 10px;
-    font-size: 1.6rem;
-    background-color: rgb(169, 128, 8);
+.signbtn{
+font-size:1.5rem;
+font-weight: bold;
+padding: .6rem;
+
+background-image: linear-gradient(to right, rgb(183, 129, 15) , rgb(191, 0, 255));
+
 }
