@@ -27,6 +27,7 @@ function About() {
 
         <div className="right-about-us-section">
         <h2  style={{textAlign:'center'}} className='text-light '>About Us</h2>
+        <div className="underline-div"></div>
             <div className="mission-section">
           <h3 style={{textAlign: 'center'}} className='text-light title-styling-about'>Our mission</h3>
           <p style={{textAlign: 'center'}} className='text-light apply-font'>To empower members with cutting-edge technological knowledge, fostering growth, innovation, and collaboration in a rapidly evolving digital landscape.</p>

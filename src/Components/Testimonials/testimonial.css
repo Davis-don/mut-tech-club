@@ -1,0 +1,19 @@
+.ovearall-testimonial-section{
+padding: 2rem;
+}
+.testimonials-title{
+text-align: center;
+font-size: 3rem;
+color: white;
+}
+.underline-div{
+border-bottom: 2px solid green;
+width: 7rem;
+margin: auto;
+
+}
+@media screen and (max-width:13.75em) {
+.testimonials-title{
+font-size: 10vw;
+}
+}

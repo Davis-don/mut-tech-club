@@ -1,0 +1,16 @@
+.overall-footer-section{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+border-top: 1px solid white;
+}
+.copyright-text{
+font-size: 1rem;
+}
+@media screen and (max-width:17.19em) {
+    .copyright-text{
+        text-wrap: nowrap;
+        font-size: 4vw;
+        }
+}

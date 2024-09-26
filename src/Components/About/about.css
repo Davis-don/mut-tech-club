@@ -41,6 +41,14 @@ grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
 height: max-content;
 
 }
+@media screen and (max-width:20.625em) {
+    .overall-about-section{
+        display: flex;
+        flex-direction: column;
+        
+        
+        } 
+}
 .left-about-us-section{
 width: 100%;
 }
