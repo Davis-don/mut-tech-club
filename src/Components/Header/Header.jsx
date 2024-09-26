@@ -11,10 +11,10 @@ function Header() {
       </div>
       <div className="nav-links-section">
         <ul className='list-unstyled'>
-          <li>Leadership</li>
-          <li>Tracks</li>
-          <li>Events</li>
-          <li>Testimonials</li>
+        <li><Link to='/' className='nav-link-item'> Home</Link></li>
+          <li><Link to='/leadership' className='nav-link-item'> Leadership</Link></li>
+          <li><Link to='tracks' className='nav-link-item'> Tracks</Link></li>
+          <li><Link to='events' className='nav-link-item'> Events</Link></li>
           <li>
             <div  className='signbtn'>Signup/in</div>
           </li>
