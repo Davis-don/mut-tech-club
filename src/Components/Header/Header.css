@@ -9,10 +9,7 @@ align-items: center;
 padding: 2rem;
 gap: 3rem;
 }
-:root{
-    --colorWhite:white;
-    --font-family-logo:"Merienda", cursive;
-}
+
 .brand-name-section{
 color:var(--colorWhite);
 

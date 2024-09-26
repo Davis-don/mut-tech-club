@@ -7,10 +7,10 @@ function App() {
 
 
   return (
-    <>
-    <Header/>
-    {/* <Hero/> */}
-    </>
+    <div className='app'>
+      <Header/>
+    <Hero/>
+    </div>
   )
 }
 
