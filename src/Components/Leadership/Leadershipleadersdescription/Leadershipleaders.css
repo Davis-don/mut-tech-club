@@ -1,0 +1,66 @@
+.overall-leaders-title{
+margin-top: 2rem;
+}
+.the-team-title{
+text-align: center;
+font-size: 5rem;
+color: green;
+margin-top: 2rem;
+}
+@media screen and (max-width:25em) {
+    .the-team-title{
+        text-align: center;
+        font-size: 9vw;
+        color: green;
+        margin-top: 2rem;
+        }
+        
+}
+.leaders-overall-container-cards-holder{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+@media screen and (min-width:25em) {
+    .leaders-overall-container-cards-holder{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        gap: 5rem;
+        }   
+}
+.photo-card-overall{
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+.image-card{
+    height: 100vh;
+}
+.leaders-actual-image{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.describe-leader-p{
+font-size: 2rem;
+}
+@media screen and (max-width:23.125em) {
+    .describe-leader-p{
+        font-size: 1.5rem;
+        }   
+}
+@media screen and (max-width:8.75em) {
+    .describe-leader-p{
+        font-size: 7vw;
+        }   
+}
+.social-link-icon{
+font-size: 2rem;        
+}   
+.social-link-ul{
+display: flex;
+flex-direction: row;
+gap:1rem
+}
