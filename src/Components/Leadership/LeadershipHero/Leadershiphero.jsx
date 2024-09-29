@@ -1,6 +1,6 @@
 import React from 'react'
 import './Leadershiphero.css'
-import peopleInOffice from  '../../assets/mapbox-pzFzd1AD8Ow-unsplash.jpg'
+import peopleInOffice from  '../../../assets/mapbox-pzFzd1AD8Ow-unsplash.jpg'
 function Leadershiphero() {
   return (
     <div className='Overall-leadership-hero-section'>

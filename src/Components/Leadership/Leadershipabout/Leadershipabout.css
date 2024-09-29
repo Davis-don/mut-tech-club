@@ -1,0 +1,73 @@
+.overall-leadership-section{
+padding: 1rem;
+}
+.about-leadership-content-holder{
+    
+    width: 60vw;
+    margin: auto;
+}
+.leadership-about-main-title{
+text-align: center;
+font-family: var(--fontFamilyTypewritter);
+font-size: 6rem;
+}
+@media screen and (max-width:56.875em) {
+    .about-leadership-content-holder{
+    
+        width: 70vw;
+        margin: auto;
+    }
+    .leadership-about-main-title{
+        text-align: center;
+        font-family: var(--fontFamilyTypewritter);
+        font-size: 4rem;
+        }   
+}
+
+
+
+@media screen and (max-width:44.375em) {
+    .about-leadership-content-holder{
+        width: 80vw;
+        margin: auto;
+    }
+    .leadership-about-main-title{
+        text-align: center;
+        font-family: var(--fontFamilyTypewritter);
+        font-size: 4rem;
+        }   
+}
+
+
+
+@media screen and (max-width:32.5em) {
+    .about-leadership-content-holder{
+        width: 100%;
+        margin: auto;
+    }
+    .leadership-about-main-title{
+        text-align: center;
+        font-family: var(--fontFamilyTypewritter);
+        font-size:7vw;
+        }   
+}
+
+.leadership-about-description{
+font-size: 2rem;
+}
+
+
+@media screen and (max-width:44.375em) {
+    .leadership-about-description{
+        font-size: 2rem;
+        }
+}   
+
+
+@media screen and (max-width:32.5em) {
+    .leadership-about-description{
+        font-size: 5vw;
+        }    
+   
+}
+

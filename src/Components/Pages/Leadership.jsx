@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Leadershiphero from '../Leadership/Leadershiphero'
+import Leadershiphero from '../Leadership/LeadershipHero/Leadershiphero'
+import Leadershipabout from '../Leadership/Leadershipabout/Leadershipabout'
 
 function Leadership() {
   return (
@@ -9,10 +10,10 @@ function Leadership() {
         <Leadershiphero/>
         </div>
         <div className="coming-onboard-section">
-<h1 className='text-light'>Comming-onboard-section</h1>
+       <Leadershipabout/>
         </div>
         <div className="meet-team-section">
-
+  <h1 className='text-light'>Meet team</h1>
         </div>
         </div>
   )
