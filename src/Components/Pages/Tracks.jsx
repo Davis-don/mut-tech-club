@@ -1,10 +1,11 @@
 import React from 'react'
+import Trackshero from '../Tracks/Trackshero/Trackshero'
 
 function Tracks() {
   return (
-    <div className='ovearall-tracks-section'>
-        <h1 className='text-light'>This is Tracks page</h1>
-    </div>
+    <div className='overall-tracks-page'>
+      <Trackshero/>
+      </div>
   )
 }
 

@@ -1,0 +1,54 @@
+.ovearll-tracks-hero{
+
+}
+.hero-tracks-image{
+width: 100%;
+height: 70vh;
+position: relative;
+}
+.tracks-hero-img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+z-index: +1;
+top:0px;
+}
+.hero-text-in-image-tracks{
+position: absolute;
+z-index: +3; 
+top:50%; 
+left:50%; 
+transform:translate(-50%, -50%); 
+width:50%; 
+}
+.tracks-main-heading{
+font-size: 4rem;
+text-align: center;
+color: white;
+}
+@media screen and (max-width:37.8125em) {
+    .tracks-main-heading{
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        text-wrap: nowrap;
+        }   
+}
+@media screen and (max-width:17.5em) {
+    .tracks-main-heading{
+        font-size: 9vw;
+        text-align: center;
+        color: white;
+        text-wrap: nowrap;
+        }   
+}
+.opacity-regulator-tracks-hero{
+position: absolute;
+z-index: +2;
+top: 0px;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: .7;
+}
