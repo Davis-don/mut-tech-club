@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Trackscard.css'
 import Trackscomponent from '../Concern/Trackscomponent'
+import dataTracks from '../Concern/Tracksdata'
 
 
 
@@ -16,7 +17,7 @@ function Trackscards() {
 
           <div className="overall-cards-holder-div">
             <div className="track-card">
-            <Trackscomponent/>
+            <Trackscomponent dataTracks={dataTracks}/>
             </div>
           </div>
 

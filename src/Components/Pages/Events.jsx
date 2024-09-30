@@ -1,9 +1,10 @@
 import React from 'react'
+import Eventcard from '../Events/Eventscards/Eventcard'
 
 function Events() {
   return (
     <div className='overall-events-section'>
-        <h1 className='text-light'>Events section</h1>
+        <Eventcard/>
         </div>
   )
 }

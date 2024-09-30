@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
-function Trackscomponent() {
+function Trackscomponent({dataTracks}) {
   return (
     <div className='overall-tracks-component-component card'>
       {dataTracks.map((data,index)=>{
