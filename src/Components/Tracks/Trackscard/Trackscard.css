@@ -1,0 +1,16 @@
+.ovearall-cards-container{
+
+}
+.header-text-tracks{
+border-bottom: 3px solid green;
+width: max-content;
+margin: auto;
+}
+.our-tracks-main-title{
+text-align: center;
+padding-top: 2rem;
+}
+.track-icon{
+text-align: center;
+font-size: 10rem;
+}

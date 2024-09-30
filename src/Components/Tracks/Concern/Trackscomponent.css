@@ -1,0 +1,35 @@
+@media screen and (min-width:23.6875em) {
+    .overall-tracks-component-component{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        gap: 5rem;
+        padding: 5rem;
+        }    
+}
+@media screen and (max-width:23.6875em) {
+    .overall-tracks-component-component{
+     display: flex;
+     flex-direction: column;
+     gap: 5rem;
+     margin: 2rem;
+        }    
+}
+
+
+.overall-tracks-component{
+display: flex;
+flex-direction: column;
+box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.3);
+background-color: rgb(185, 233, 185);
+
+}
+.actual-icon{
+text-align: center;
+font-size: 10rem;
+}
+.track-title{
+text-align: center;
+}
+.description-text-track{
+font-size: 1.5rem;
+}
