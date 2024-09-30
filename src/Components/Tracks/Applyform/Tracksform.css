@@ -1,6 +1,45 @@
 .overall-tracks-form{
+/* background-color: rgb(182, 210, 182); */
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(166, 237, 166));
+padding-block: 5rem;
+}
+.overall-tracks-form-form{
+width: max-content;
+padding: 2rem;
+margin: auto;
+}
+.overall-tracks-form-form form{
+width: 50rem;
+display: flex;
+flex-direction: column;
+gap:10px;
 
+}
+.input-field{
+padding: 1rem;
+font-size: 1.5rem;
+}
+.choose-track-label{
+    font-size: 1.5rem;
 }
 .tracksform-main-title{
 text-align: center;
+}
+.btn-holder{
+width: max-content;
+margin: auto;
+}
+.submit-btn{
+width: 10rem;
+padding-block: 1rem;
+font-size: 1.5rem;
+}
+@media screen and (max-width:43.75rem) {
+    .overall-tracks-form-form form{
+        width:70vw;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        
+        }
 }

@@ -6,7 +6,7 @@ import Tracksform from '../Tracks/Applyform/tracksform'
 
 function Tracks() {
   return (
-    <div className='overall-tracks-page'>
+    <div className='overall-tracks-page bg-light'>
       <Trackshero/>
       <Trackscards/>
       <Tracksform/>
