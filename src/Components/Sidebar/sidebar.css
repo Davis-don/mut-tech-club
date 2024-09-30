@@ -1,0 +1,33 @@
+.overall-sidebar-container{
+    position: relative;
+width: 100vw;
+height: 83vh;
+background-color:rgb(228, 228, 242);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+@media screen and (min-width:43.76em) {
+    .overall-sidebar-container{
+    display: none;
+    }  
+}
+.menu-title{
+text-align: center;
+}
+.sidebar-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.sidebar-ul li:hover{
+border-bottom: 2px solid rgb(42, 42, 144);
+}
+.sidebar-link{
+text-decoration: none;
+color:black;
+font-size: 2rem;
+}

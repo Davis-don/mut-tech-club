@@ -1,5 +1,6 @@
 .ovearall-testimonial-section{
-padding: 2rem;
+padding-top:2rem;
+background-color: rgb(208, 208, 227);
 }
 .testimonials-title{
 text-align: center;
@@ -16,4 +17,55 @@ margin: auto;
 .testimonials-title{
 font-size: 10vw;
 }
+}
+@media screen and (min-width:22.5em) {
+    .cover-testimonial{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        gap: 5rem;
+        padding-block: 5rem;
+        padding-inline: 5rem;
+        }    
+}
+@media screen and (max-width:22.5em) {
+    .cover-testimonial{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+       padding: 2rem;
+
+        }    
+}
+
+.overall-item-testimonial-card{
+position: relative;
+
+}
+.inner-testimonial-container{
+    background-color: white;
+    height: max-content;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.3);
+}
+.user-image{
+    margin: auto;
+    width: max-content;
+}
+.actual-user-img{
+width: 10rem;
+height: 10rem;
+
+}
+.user-comment{
+
+}
+.social-links-testimonial-ul{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: center;
+align-items: center;
 }
