@@ -1,7 +1,7 @@
 import React from 'react'
 import './Leadershipleaders.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import DrNdia from '../../../assets/johnNdia.jpeg'
+import DrNdia from '../../../../public/assets/johnNdia.jpeg'
 import victorynjeri from '../../../assets/victory njeri.jpeg'
 import { FaLinkedinIn, FaXTwitter, FaFacebookF } from "react-icons/fa6";
 import allanmuhari from '../../../assets/allanmuhari.jpg'
